@@ -1,0 +1,9 @@
+[package]
+name = "miden"
+description = "Zerocopy playground"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+bytemuck = { version = "1.21.0", features = ["derive"] }
+zerocopy = { version = "0.8.14", features = ["derive"] }
